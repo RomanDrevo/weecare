@@ -1,0 +1,32 @@
+.prof-slider-wrapper :global{
+  .prof-slider {
+    width: 220px;
+    height: 280px;
+    border: 1px solid rebeccapurple;
+    border-radius: 20px;
+    margin-bottom: 60px;
+  }
+  .slider-img{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+  }
+  .swiper-container{
+    height: 100%;
+  }
+  .prof-info{
+    position: relative;
+    top: 0;
+    border-radius: 20px 20px 0 0;
+    color: #fff;
+    opacity: 0.5;
+    background-color: #041e4b;
+    padding: 12px 0;
+    text-align: center;
+  }
+  .swiper-slide-shadow-left,
+  .swiper-slide-shadow-right{
+    display: none;
+  }
+}
